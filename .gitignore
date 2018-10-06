@@ -1,18 +1,18 @@
-node_modules
-ncp-debug.log
-npm-debug.log
-bower_component
-src/config/configSec.js
+# dependencies
+/node_modules
 
-.DS_STORE
+# testing
+/coverage
+
+# production
+/build
+
 *~
 *.pyc
 static
 .grunt
 _SpecRunner.html
 __benchmarks__
-build/
-coverage/
 .module-cache
 *.gem
 docs/.bundle
@@ -43,3 +43,15 @@ chrome-user-data
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# misc
+.DS_Store
+.DS_STORE
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+ncp-debug.log
+npm-debug.log
+bower_component
+src/config/configSec.js
